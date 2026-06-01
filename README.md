@@ -128,3 +128,5 @@ or rendered output.
 This project is early and actively evolving. The strongest contribution areas
 are reliability, setup docs, media-ingestion hardening, smaller test fixtures,
 caption accuracy, and render verification.
+
+See [ROADMAP.md](ROADMAP.md) for the near-term maintenance plan.
