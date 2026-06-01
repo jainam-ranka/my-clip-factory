@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a reproducible problem in Live Clip Factory
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include the source type, command, page, or run workflow involved.
+      placeholder: |
+        1. Start the app with ...
+        2. Paste ...
+        3. Click ...
+        4. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Node version, OS, browser, yt-dlp version, transcription backend, and relevant package versions.
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Remove secrets, cookies, private media, and API keys before posting.
+      render: shell
+    validations:
+      required: false

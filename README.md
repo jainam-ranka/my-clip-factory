@@ -1,5 +1,7 @@
 # Live Clip Factory
 
+[![CI](https://github.com/jainam-ranka/my-clip-factory/actions/workflows/ci.yml/badge.svg)](https://github.com/jainam-ranka/my-clip-factory/actions/workflows/ci.yml)
+
 Local-first livestream clipping studio built with Next.js, Remotion, SQLite,
 `yt-dlp`, Whisper, and OpenAI.
 
