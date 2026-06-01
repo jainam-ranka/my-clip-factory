@@ -1,0 +1,17 @@
+node_modules
+.next
+dist
+data
+storage
+out/renders
+public/runtime
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+.DS_Store
+.env
+.env.local
+.venv
+
+# Ignore the output video from Git but not videos you import into src/.
+out
